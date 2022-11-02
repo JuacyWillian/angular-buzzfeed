@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+/*You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Open+Sans:wght@700;800&family=Paytone+One&display=swap');
+
+/*
+font-family: 'Exo 2', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Paytone One', sans-serif;
+*/
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  font-size: 16px;
+
+  background-color: blueviolet;
+  color: azure;
+}

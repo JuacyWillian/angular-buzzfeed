@@ -1,0 +1,6 @@
+<h2 class="page-title">Escolha o seu Quizz!</h2>
+<div class="quizzes">
+  <a *ngFor="let q of quizzes" [routerLink]="['quizz', q.id]">
+    <app-title title=""></app-title>
+  </a>
+</div>

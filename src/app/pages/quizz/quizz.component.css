@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap");
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+* {
+  font-family: "Open Sans", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
+}
+
+.quizz-title {
+  /* font-family: ; */
+  /* font-size: ; */
+  text-align: center;
+  font-size: 1.5rem;
+}
+.quizz-question {
+  margin-top: 50px;
+}
+.question {
+}
+.question-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.question-option {
+  padding: 20px 20px;
+  width: 40%;
+  margin: 10px auto;
+
+  color: darkblue;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+.resultado-div {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 2rem;
+}
+
+.results {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8em;
+
+  width: 90%;
+  padding: 2rem 2rem;
+
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: darkgreen;
+  margin: 15px auto;
+}

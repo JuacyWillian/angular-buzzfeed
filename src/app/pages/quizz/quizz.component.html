@@ -1,0 +1,28 @@
+<p class="quizz-title">{{ quizz!.title }}</p>
+
+<div *ngFor="let question of quizz!.questions" class="quizz-question">
+  <div
+    class="question"
+    *ngIf="question.id == currentQuestion && !showResults"
+    class="q"
+  >
+    <p class="question-title">{{ question.question }}</p>
+    <div class="options">
+      <div
+        *ngFor="let op of question.options"
+        (click)="onClickChoice(op.alias)"
+        class="question-option"
+      >
+        {{ op.name }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resultado-div" *ngIf="showResults">
+  <small>RESULTADO</small><br />
+
+  <div class="results">
+    <p>{{ resultado }}</p>
+  </div>
+</div>
